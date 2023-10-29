@@ -1,0 +1,183 @@
+// named imports
+import { StyleSheet } from 'react-native';
+
+export const menuScreenStyles = StyleSheet.create({
+  menuContainer: {
+    flex: 1,
+    marginBottom: 80,
+    position: 'relative',
+  },
+  cartBtn: {
+    backgroundColor: '#FFD700',
+    borderRadius: 10,
+    position: 'absolute',
+    bottom: 32,
+    right: 24,
+    padding: 14,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: -20,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+  },
+  header: {
+    height: 64,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+  },
+  headerText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    color: '#365314',
+    fontFamily: 'Helvetica Neue',
+  },
+  avatarContainer: {
+    position: 'absolute',
+    right: 20,
+  },
+  avatar: {
+    width: 38,
+    height: 38,
+  },
+  heroContainer: {
+    height: 320,
+    backgroundColor: '#365314',
+    padding: 20,
+  },
+  heroHeading: {
+    fontSize: 48,
+    fontWeight: 'bold',
+    fontFamily: 'Cochin',
+    color: '#FFD700',
+  },
+  heroSubheading: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    fontFamily: 'Cochin',
+    color: '#fff',
+  },
+  descriptionContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  heroImg: {
+    width: 140,
+    height: 180,
+    borderRadius: 22,
+    resizeMode: 'cover',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 20,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+  },
+  heroDescription: {
+    fontSize: 18,
+    marginTop: 10,
+    fontWeight: 'bold',
+    fontFamily: 'Cochin',
+    color: '#fff',
+    width: '60%',
+  },
+  featuredContainer: {
+    backgroundColor: '#ddd',
+    marginBottom: 10,
+  },
+  searchBar: {
+    backgroundColor: '#365314',
+    marginTop: 20,
+    marginHorizontal: 15,
+    borderRadius: 10,
+  },
+  searchBarInput: {
+    color: 'white',
+    fontSize: 18,
+  },
+  featuredCategories: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 20,
+    marginLeft: -10,
+  },
+  featuredCategory: {
+    backgroundColor: '#365314',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    marginHorizontal: 5,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  featuredCategorySelected: {
+    backgroundColor: '#333333',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    marginHorizontal: 5,
+  },
+  featuredCategoryText: {
+    fontSize: 18,
+    color: '#fff',
+    fontWeight: '500',
+    fontFamily: 'Helvetica Neue',
+  },
+  itemListingContainer: {
+    paddingHorizontal: 20,
+  },
+  itemListing: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  itemListingSeparator: {
+    height: 1,
+    backgroundColor: '#ddd',
+  },
+  itemListingImg: {
+    width: 100,
+    height: 100,
+    borderRadius: 14,
+    resizeMode: 'cover',
+  },
+  itemListingText: {
+    width: '60%',
+  },
+  itemListingTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    fontFamily: 'Helvetica Neue',
+  },
+  itemListingDescription: {
+    fontSize: 14,
+    color: '#333',
+    fontFamily: 'Helvetica Neue',
+    width: '100%',
+    paddingTop: 5,
+    paddingBottom: 10,
+  },
+  itemListingPrice: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    fontFamily: 'Cochin',
+  },
+});

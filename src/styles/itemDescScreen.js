@@ -1,0 +1,93 @@
+// named imports
+import { StyleSheet } from 'react-native';
+
+export const itemDescScreenStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    padding: 20,
+    color: '#333333',
+  },
+  image: {
+    width: '100%',
+    height: 300,
+  },
+  desc: {
+    fontSize: 20,
+    lineHeight: 24,
+    padding: 20,
+    color: '#333333',
+    textAlign: 'center',
+  },
+  sectionContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+  },
+  sectionText: {
+    fontSize: 18,
+    lineHeight: 20,
+    padding: 20,
+    color: '#333333',
+    textAlign: 'center',
+  },
+  sectionBadge: {
+    backgroundColor: '#365314',
+    color: '#fff',
+    fontSize: 16,
+    padding: 8,
+    margin: 4,
+  },
+  sectionBadgeAlt: {
+    backgroundColor: '#fff',
+    color: '#333333',
+    fontSize: 16,
+    padding: 8,
+    margin: 4,
+    borderRadius: 4,
+    borderWidth: 1,
+    borderColor: '#333333',
+  },
+  actionContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'evenly',
+    marginHorizontal: 20,
+  },
+  ctaContainer: {
+    flexDirection: 'row',
+    width: '40%',
+    margin: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#365314',
+    alignItems: 'center',
+    marginTop: 32,
+    paddingVertical: 12,
+    borderRadius: 6,
+  },
+  ctaContainerAlt: {
+    backgroundColor: '#ee4877',
+    flexDirection: 'row',
+    width: '40%',
+    margin: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignItems: 'center',
+    marginTop: 32,
+    paddingVertical: 12,
+    borderRadius: 6,
+  },
+  ctaText: {
+    color: '#fff',
+    fontSize: 18,
+    marginRight: 8,
+  },
+});
